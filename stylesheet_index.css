@@ -1,0 +1,52 @@
+body{
+    background-color:#356169 ;
+}
+header{
+    position:fixed;
+    height: 60px;
+    width: 95vw;
+    left: 2.5%;
+    background-color: #d2b48ce7;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 100;
+    box-shadow: #000000fa 3px 5px 5px ;
+}
+@media  (max-width:500px){
+    header{
+        background-color:orange;
+    }
+
+}
+#logo_h{
+    flex-basis: 20%;
+    
+}
+#header_img{
+    height: 60px;
+    width:auto;
+    
+}
+nav{
+    
+    margin: 0 2vw 0 0;
+    flex-basis: 80%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+nav a{ 
+    color: #356169;
+    font-family: "Josefin Sans", monospace;
+    font-weight: 600;
+    font-size: 22px;
+    align-content: center;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:rgb(255, 255, 255)
+}

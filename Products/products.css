@@ -1,0 +1,39 @@
+#flex_body{ 
+    position: relative;
+    /**background-color: orange;**/
+    top:70px;
+    height: 800px ;
+    width:90vw;
+    left: 5%;
+    z-index: 1;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+.h1{
+    font-family: "Josefin Sans", monospace;
+    font-size: 60px;
+    color: #D2B4A4;
+    height:5vw;
+    width:auto;
+    flex-basis: 100%;
+    text-align: center;
+    align-content: center;
+        
+}
+.tile{
+    font-family: "Josefin Sans", monospace;
+    background-color: #d2b48ce7;
+    margin-top: 25px;
+    height:320px;
+    width: 235px;
+    border-radius: 15px;
+    text-align: center;
+    
+    
+}
+.h2{
+    color: #356169;
+}
